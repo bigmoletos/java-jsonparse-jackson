@@ -1,0 +1,38 @@
+{
+	"type": "FeatureCollection",
+	"totalFeatures": 3978,
+	"properties": [
+		{
+			"date_ech": "01-11-2019 00:00:00",
+			"valeur": 4,
+			"qualif": "Bon",
+			"source": "AtmoSud",
+			"type_zone": "commune",
+			"code_zone": "13055",
+			"lib_zone": "Marseille",
+			"val_no2": 2,
+			"val_so2": 0,
+			"val_o3": 3,
+			"val_pm10": 4,
+			"val_pm25": 0,
+			"couleur": "#8DA71E"
+		},
+
+		{
+				"date_ech": "01-11-2019 12:00:00",
+				"valeur": 6,
+				"qualif": "Moyen",
+				"source": "AtmoSud",
+				"type_zone": "commune",
+				"code_zone": "13055",
+				"lib_zone": "Marseille",
+				"val_no2": 4,
+				"val_so2": 4,
+				"val_o3": 1,
+				"val_pm10": 6,
+				"val_pm25": 0,
+				"couleur": "#8DA71E"
+		}
+	]
+
+}

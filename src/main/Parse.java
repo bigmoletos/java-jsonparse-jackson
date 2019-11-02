@@ -8,13 +8,13 @@ public class Parse {
 
 	private final static String JSON_WEATHER_PATH = "weather.json";
 
+	// public void parse1() {
 	public static void main(String[] args) {
 		ObjectMapper objectMapper = new ObjectMapper();
 		try {
 			// write your code here !
 			// TODO : get the root from the file JSON_WEATHER_PATH
-			JsonNode root = objectMapper.readTree(new File(
-					"/home/franck/programmation/workspaceEclipse/queteSpring_parse_jakson_Json/java-jsonparse-jackson/weather.json"));
+			JsonNode root = objectMapper.readTree(new File(JSON_WEATHER_PATH));
 
 			// TODO : get the value of "name" attribute
 			String cityName = root.get("name").asText();
@@ -27,8 +27,8 @@ public class Parse {
 			// TODO : get the "wind" attribute as an Wind object
 			JsonNode windObject = root.get("wind");
 			Wind wind = objectMapper.convertValue(root.get("wind"), Wind.class);
-			int speed = windObject.get("speed").asInt();
-			int deg = windObject.get("deg").asInt();
+			Double speed = windObject.get("speed").asDouble();
+			Double deg = windObject.get("deg").asDouble();
 
 			// TODO : get the "weather" attribute as an array of Weather objects
 //			Weather[] weathers = {}; 
@@ -39,6 +39,7 @@ public class Parse {
 			System.out.printf("City latitude: %s%n", cityLatitude);
 			System.out.printf("City longitude: %s%n", cityLongitude);
 			System.out.printf("Wind infos: %s%n", wind.toString());
+			System.out.printf("Wind speed:\t%.2f and deg:\t%.2f %n", speed, deg);
 			for (Weather weather : weathers) {
 				System.out.printf("Weather infos: %s%n", weather.toString());
 			}

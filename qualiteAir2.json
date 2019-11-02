@@ -1,0 +1,65 @@
+{
+	"type": "FeatureCollection",
+	"totalFeatures": 3978,
+	"features": [
+		{
+			"type": "Feature",
+			"id": "ind_sudpaca_agglo.fid--48cd4d03_16e2798e16e_6469",
+    			"geometry": {
+    				  "type": "MultiPoint",
+          				"coordinates": [[94028.0282663,	6247112.77529318]	] 
+    			}, 
+			"geometry_name": "geom", 
+      			"properties": {
+      				"date_ech": "02-04-2018 00:00:00",
+      				"valeur": 4,
+      				"qualif": "Bon",
+      				"source": "AtmoSud",
+      				"type_zone": "commune",
+      				"code_zone": "13055",
+      				"lib_zone": "Marseille",
+      				"val_no2": 3,
+      				"val_so2": 0,
+      				"val_o3": 4,
+      				"val_pm10": 3,
+      				"val_pm25": 0,
+      				"couleur": "#8DA71E"
+      			}
+		},
+		{
+			"type": "Feature",
+			"id": "ind_sudpaca_agglo.fid--48cd4d03_16e2798e16e_6439",
+			"geometry": {
+				"type": "MultiPoint",
+				"coordinates": [
+					[
+						4028.02826631,
+						6247112.77529318
+					]
+				]
+			},
+  			"geometry_name": "geom", 
+			"properties": {
+				"date_ech": "01-11-2019 00:00:00",
+				"valeur": 4,
+				"qualif": "Bon",
+				"source": "AtmoSud",
+				"type_zone": "commune",
+				"code_zone": "13055",
+				"lib_zone": "Marseille",
+				"val_no2": 2,
+				"val_so2": 0,
+				"val_o3": 3,
+				"val_pm10": 4,
+				"val_pm25": 0,
+				"couleur": "#8DA71E"
+			}
+		}
+	],
+	"crs": {
+		"type": "name",
+		"properties": {
+			"name": "urn:ogc:def:crs:EPSG::2154"
+		}
+	}
+}
