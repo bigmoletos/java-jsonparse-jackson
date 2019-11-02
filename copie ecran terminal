@@ -1,0 +1,10 @@
+
+franck@franck-Surface-Pro-3: (master=)~/programmation/workspaceEclipse/queteSpring_parse_jakson_Json/java-jsonparse-jackson$./tester.sh
+City name: London
+City latitude: 51.51
+City longitude: -0.13
+Wind infos: src.main.Wind{speed=4.1, deg=80.0}
+Wind speed:	4,10 and deg:	80,00 
+Weather infos: src.main.Weather{id=300, main='Drizzle', description='light intensity drizzle', icon='09d'}
+Weather infos: src.main.Weather{id=800, main='Clear', description='clear sky', icon='01n'}
+franck@franck-Surface-Pro-3: (master=)~/programmation/workspaceEclipse/queteSpring_parse_jakson_Json/java-jsonparse-jackson$
